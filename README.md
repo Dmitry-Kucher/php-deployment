@@ -1,8 +1,11 @@
-# php-deployment Project
+# PHP/nginx deployment starter kit
 
-## PHP/nginx deployment starter kit
+## Contains:
 
-### Usage:
+- [nginx:alpine](https://hub.docker.com/_/nginx/)
+- [php:fpm-alpine](https://hub.docker.com/_/php/)
+
+## Usage:
 
 By default on linux system all `*.sh` files should be executable. 
 To start php/nginx container just type:
