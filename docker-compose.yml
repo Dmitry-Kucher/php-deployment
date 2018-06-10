@@ -3,7 +3,7 @@ services:
   nginx:
     build: ./deployment/nginx
     ports:
-      - 8077:80
+      - "${NGINX_LOCAL_HOST}:${NGINX_PUBLIC_PORT}:80"
     links:
       - php-fpm:php-fpm
     volumes:

@@ -1,0 +1,5 @@
+export DEV_MODE=true
+export DOCKER_COMPOSE_FILE="docker-compose.yml"
+export NGINX_LOCAL_HOST="127.0.0.1"
+export NGINX_PUBLIC_PORT="8081"
+export WEB_PUBLIC_PORT="3030"
