@@ -1,8 +1,8 @@
 # php-deployment Project
 
-##PHP/nginx deployment starter kit
+## PHP/nginx deployment starter kit
 
-###Usage:
+### Usage:
 
 By default on linux system all `*.sh` files should be executable. 
 To start php/nginx container just type:
